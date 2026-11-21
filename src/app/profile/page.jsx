@@ -7,7 +7,7 @@ export default function ProfilePage() {
 
   return (
     <div className="text-center mt-20 font-sans">
-      <h1 className="text-2xl font-bold mb-4">User Profile</h1>
+      <h1 className="text-2xl font-bold mb-4">Slardar Mahinay</h1>
 
       <img
         src="/slardar.jpg"
@@ -15,7 +15,7 @@ export default function ProfilePage() {
         className="w-36 h-36 rounded-full mx-auto my-5 block object-cover"
       />
 
-      <p className="mb-5">Welcome, admin!</p>
+      <p className="mb-5">Welcome, slardar!</p>
 
       <button
         onClick={() => router.back()}
